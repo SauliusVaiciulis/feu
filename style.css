@@ -5,9 +5,8 @@
     margin: 20px;
 }
 .container {
-    height: 200px;
-    width: 100px;
-    border: 1px solid black;
+    height: 500px;
+
 
 }
 .box {
@@ -46,8 +45,8 @@ button {
 }
 
 img {
-    height: 30px;
-    width: 30px;
+    height: 100px;
+    width: 100px;
     box-sizing: border-box;
 }
 .red {
