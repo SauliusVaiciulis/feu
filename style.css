@@ -10,9 +10,9 @@
 
 }
 .box {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: #c2c0c0;
     box-sizing: border-box;
 
 }
