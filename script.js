@@ -1,12 +1,9 @@
 
-
-const arr = [    "cia",    "yra",    "random",    "zodziai",    "labai",    "nedaug",    "itemu"]
-
+const number = document.querySelector("h2");
 const button = document.querySelector("button");
-const word = document.querySelector("h1")
 
 button.onclick = () => {
-    const randomWord = arr[Math.floor(Math.random()*arr.length)]
-    word.innerHTML = "Word: " + randomWord
-    console.log(randomWord)
+    const randomNumber = Math.ceil(Math.random()*10);
+    number.innerHTML = "Number: " + randomNumber
+    console.log(randomNumber)
 }
