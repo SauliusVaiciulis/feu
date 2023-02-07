@@ -1,14 +1,16 @@
 
 
-const boxes = document.querySelectorAll(".box")
-const collor = document.querySelector("h1")
+const buttons = document.querySelectorAll("button");
+const result = document.querySelector("h1");
 
-boxes[0].onclick = () => {
-    collor.innerHTML = "COLLOR RED"
+let counter = 0;
+
+buttons[0].onclick = () => {
+    counter +=10;
+    result.innerHTML = "Counter: " + counter;
 }
-boxes[1].onclick = () => {
-    collor.innerHTML = "COLLOR AQUA"
+buttons[1].onclick = () => {
+    counter -=10;
+    result.innerHTML = "Counter: " + counter;
 }
-boxes[2].onclick = () => {
-    collor.innerHTML = "COLLOR PINK"
-}
+
